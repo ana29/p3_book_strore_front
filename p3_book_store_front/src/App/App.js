@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import './App.css';
-import BookList from './BookList';
-import SearchBox from './SearchBox';
-import { books } from "./books";
+import BookList from '../BookList/BookList';
+import SearchBox from '../SearchBox/SearchBox';
+import { books } from "../books";
 
 class App extends Component {
 
