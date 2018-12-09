@@ -3,9 +3,10 @@ import React from 'react';
 const SearchBox = ({searchField,searchChange }) => {
     return (
         <div>
-            <input type='search'
+            <input className='SearchBox'
+                   type='search'
                    placeholder='search books'
-                    onChange={searchChange}/>
+                   onChange={searchChange}/>
         </div>
     );
 

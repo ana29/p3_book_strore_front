@@ -2,8 +2,7 @@ import React, {Component} from 'react';
 import './App.css';
 import BookList from './BookList';
 import SearchBox from './SearchBox';
-import {books} from "./books";
-
+import { books } from "./books";
 
 class App extends Component {
 
@@ -23,11 +22,10 @@ class App extends Component {
         const filteredBooks = this.state.books.filter(book => {
             return book.title.toLowerCase().includes(this.state.searchField.toLowerCase())
         });
-        console.log(filteredBooks);
 
         return (
-            <div className="App">
-                <h1>P3Bookstore</h1>
+            <div className="App header">
+                <h1 className="Title">P3 Bookstore</h1>
                 <SearchBox searchChange={this.onSearchChange}/>
                 <BookList books={filteredBooks}/>
             </div>
