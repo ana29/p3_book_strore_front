@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  background-color: #f2e1f0;
+}
+
+.Title {
+  color: #a91b6d;
+  text-shadow: 3px 2px #46006e;
+  font-size: 100px;
+
+
+}
+.header {
+  background-color: #f2e1f0;
+  text-align: center;
+  padding: 1px;
+}
